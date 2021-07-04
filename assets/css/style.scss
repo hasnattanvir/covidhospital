@@ -740,8 +740,11 @@ $btn-hover-color:#ce5358;
         padding: 230px 0px;
     }
     .h2 {
-        color: $white-color;
+        color: $primary-text-color;
         margin: 0px;
+        span {
+            color: $red-color;
+        }
         @include minwidth(576px) {
             font-size: 30px;
         }
@@ -1042,6 +1045,102 @@ $bg-thard-color:#f0f8ff;
         }
     }
 }
+
+
+/*-------------------- Start CONTACT Page ----------------*/
+
+.contactaddress {
+    .inner-box {
+        max-width: 1000px;
+        width: 100%;
+        margin: auto;
+        border-radius: 15px;
+        background: #f0f8ff;
+        top: 0px;
+        @include minwidth(991px) {
+            top: -100px;
+        }
+    }
+    .map {
+        iframe {
+            width: 100%;
+            height: max-content;
+            height: 500px;
+            // @include minwidth(991px) {
+            //     height: 500px;
+            // }
+        }
+    }
+    .address_text {
+        padding: 50px;
+        .icon {
+            font-size: 20px;
+            color: $btn_backcolor;
+            padding-right: 25px;
+        }
+        .h5 {
+            color: $primary-text-color;
+            margin-bottom: 0px;
+            color: $primary-text-color;
+        }
+        span {
+            padding-top: 3px;
+            color: $gray-text-color;
+        }
+    }
+}
+
+.contactform {
+    padding-bottom: 50px;
+    @include minwidth(991px) {
+        padding-bottom: 100px;
+    }
+    .title {
+        padding-top: 30px;
+        @include minwidth(991px) {
+            padding-top: 0px;
+        }
+        .h2 {
+            color: $primary-text-color;
+            span {
+                color: $red-color;
+            }
+        }
+        p {
+            padding-bottom: 40px;
+            color: $primary-text-color;
+        }
+    }
+    .resize {
+        // max-width: 68%;
+        @include minwidth(991px) {
+            max-width: 68%;
+        }
+    }
+    .form_control {
+        display: block;
+        width: 100%;
+        padding: 10px 0px 10px 20px!important;
+        font-size: 0.75rem;
+        font-weight: 500;
+        margin-bottom: 20px!important;
+        line-height: 1.7;
+        height: 50px!important;
+        color: #60697b;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid rgba(8, 60, 130, 0.06);
+        appearance: none;
+        border-radius: 0.4rem;
+        transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+    .send-btn {
+        padding-top: 50px;
+    }
+}
+
+
+/*-------------------- start form sections ----------------*/
 
 
 /* ------------------- start footer sections -----------------*/

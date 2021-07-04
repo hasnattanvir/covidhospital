@@ -11583,8 +11583,12 @@ table th {
 }
 
 .bannar_inner .h2 {
-  color: #fff;
+  color: #50658e;
   margin: 0px;
+}
+
+.bannar_inner .h2 span {
+  color: #f86168;
 }
 
 @media only screen and (min-width: 576px) {
@@ -11944,6 +11948,118 @@ table th {
   color: #f86168;
 }
 
+/*-------------------- Start CONTACT Page ----------------*/
+.contactaddress .inner-box {
+  max-width: 1000px;
+  width: 100%;
+  margin: auto;
+  border-radius: 15px;
+  background: #f0f8ff;
+  top: 0px;
+}
+
+@media only screen and (min-width: 991px) {
+  .contactaddress .inner-box {
+    top: -100px;
+  }
+}
+
+.contactaddress .map iframe {
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  height: 500px;
+}
+
+.contactaddress .address_text {
+  padding: 50px;
+}
+
+.contactaddress .address_text .icon {
+  font-size: 20px;
+  color: #0DC6F6;
+  padding-right: 25px;
+}
+
+.contactaddress .address_text .h5 {
+  color: #50658e;
+  margin-bottom: 0px;
+  color: #50658e;
+}
+
+.contactaddress .address_text span {
+  padding-top: 3px;
+  color: #646464;
+}
+
+.contactform {
+  padding-bottom: 50px;
+}
+
+@media only screen and (min-width: 991px) {
+  .contactform {
+    padding-bottom: 100px;
+  }
+}
+
+.contactform .title {
+  padding-top: 30px;
+}
+
+@media only screen and (min-width: 991px) {
+  .contactform .title {
+    padding-top: 0px;
+  }
+}
+
+.contactform .title .h2 {
+  color: #50658e;
+}
+
+.contactform .title .h2 span {
+  color: #f86168;
+}
+
+.contactform .title p {
+  padding-bottom: 40px;
+  color: #50658e;
+}
+
+@media only screen and (min-width: 991px) {
+  .contactform .resize {
+    max-width: 68%;
+  }
+}
+
+.contactform .form_control {
+  display: block;
+  width: 100%;
+  padding: 10px 0px 10px 20px !important;
+  font-size: 0.75rem;
+  font-weight: 500;
+  margin-bottom: 20px !important;
+  line-height: 1.7;
+  height: 50px !important;
+  color: #60697b;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(8, 60, 130, 0.06);
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border-radius: 0.4rem;
+  -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.contactform .send-btn {
+  padding-top: 50px;
+}
+
+/*-------------------- start form sections ----------------*/
 /* ------------------- start footer sections -----------------*/
 ul {
   margin: 0px;
