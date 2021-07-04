@@ -1,10 +1,10 @@
 $(document).ready(function() {
     var swiper = new Swiper('.swiper-container', {
         slidesPerView: 1,
-        spaceBetween: 30,
+        spaceBetween: 0,
         autoplay: true,
         loop: true,
-        speed: 700,
+        speed: 800,
         effect: 'slide',
 
     });
@@ -25,33 +25,6 @@ $(document).ready(function() {
 
 });
 
-
-$(document).ready(function() {
-    var swiper = new Swiper('.quoteslider', {
-        slidesPerView: 1,
-        spaceBetween: 30,
-        autoplay: true,
-        loop: true,
-        speed: 700,
-        effect: 'slide',
-        pagination: {
-            el: '.swiper-pagination',
-            type: 'bullets',
-        },
-
-    });
-
-});
-
-$(document).ready(function() {
-    $(".js-video-button").modalVideo({
-        youtube: {
-            controls: 0,
-            nocookie: true
-        }
-    });
-
-});
 
 // dector quoter slider
 
@@ -76,6 +49,19 @@ $(document).ready(function() {
                 slidesPerView: 3,
                 spaceBetween: 30,
             },
+        }
+    });
+
+});
+
+
+
+
+$(document).ready(function() {
+    $(".js-video-button").modalVideo({
+        youtube: {
+            controls: 0,
+            nocookie: true
         }
     });
 
