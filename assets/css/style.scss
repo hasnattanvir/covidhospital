@@ -755,6 +755,22 @@ $btn-hover-color:#ce5358;
             font-size: 50px;
         }
     }
+    .mini_container {
+        // width: 800px;
+        max-width: 90%;
+        margin: auto;
+        p {
+            color: $primary-text-color;
+            font-family: $primary-font;
+            margin-top: 15px;
+        }
+        @include minwidth(768px) {
+            max-width: 80%;
+        }
+        @include minwidth(991px) {
+            max-width: 70%;
+        }
+    }
 }
 
 
@@ -1140,7 +1156,41 @@ $bg-thard-color:#f0f8ff;
 }
 
 
-/*-------------------- start form sections ----------------*/
+/*-------------------- end form sections ----------------*/
+
+
+/*--------------------  service card sections ----------------*/
+
+$white_light:#f0f8ff;
+.service_page {
+    padding: 50px 0px;
+    @include minwidth(991px) {
+        padding: 100px 0px;
+    }
+    .inner_box {
+        background: $white_light;
+        border-radius: 5px;
+        .company_logo {
+            padding: 30px;
+            img {
+                width: 100%;
+                border-radius: 15px;
+                height: 300px;
+                object-fit: cover;
+            }
+        }
+        .text-info {
+            padding: 15px 15px 25px 15px;
+            .btn-primariey {
+                padding: 5px;
+                display: table-cell;
+            }
+        }
+    }
+}
+
+
+/* ------------------- Bangladesh Private Hospital ------------*/
 
 
 /* ------------------- start footer sections -----------------*/

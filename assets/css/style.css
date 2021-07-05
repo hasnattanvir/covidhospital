@@ -11609,6 +11609,29 @@ table th {
   }
 }
 
+.bannar_inner .mini_container {
+  max-width: 90%;
+  margin: auto;
+}
+
+.bannar_inner .mini_container p {
+  color: #50658e;
+  font-family: "Ubuntu", sans-serif;
+  margin-top: 15px;
+}
+
+@media only screen and (min-width: 768px) {
+  .bannar_inner .mini_container {
+    max-width: 80%;
+  }
+}
+
+@media only screen and (min-width: 991px) {
+  .bannar_inner .mini_container {
+    max-width: 70%;
+  }
+}
+
 /* ----------------------- slider section ----------------*/
 .banner-slider .inner-box {
   padding-top: 120px;
@@ -12059,7 +12082,45 @@ table th {
   padding-top: 50px;
 }
 
-/*-------------------- start form sections ----------------*/
+/*-------------------- end form sections ----------------*/
+/*--------------------  service card sections ----------------*/
+.service_page {
+  padding: 50px 0px;
+}
+
+@media only screen and (min-width: 991px) {
+  .service_page {
+    padding: 100px 0px;
+  }
+}
+
+.service_page .inner_box {
+  background: #f0f8ff;
+  border-radius: 5px;
+}
+
+.service_page .inner_box .company_logo {
+  padding: 30px;
+}
+
+.service_page .inner_box .company_logo img {
+  width: 100%;
+  border-radius: 15px;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.service_page .inner_box .text-info {
+  padding: 15px 15px 25px 15px;
+}
+
+.service_page .inner_box .text-info .btn-primariey {
+  padding: 5px;
+  display: table-cell;
+}
+
+/* ------------------- Bangladesh Private Hospital ------------*/
 /* ------------------- start footer sections -----------------*/
 ul {
   margin: 0px;
