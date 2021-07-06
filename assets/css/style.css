@@ -11289,8 +11289,14 @@ table th {
 }
 
 .wrapper-toggler .icon i {
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
   font-size: 20px;
   padding-top: 5px;
+  color: #AEDBC1 !important;
+}
+
+.wrapper-toggler .icon:hover i {
   color: #50658e !important;
 }
 
@@ -11555,6 +11561,17 @@ table th {
 }
 
 /* ------------------------ end header section -----------------*/
+.bannar-section {
+  background-repeat: no-repeat !important;
+  background-position: center center;
+  background-size: cover !important;
+  background-attachment: fixed;
+}
+
+.rgb_bannar {
+  background: rgba(227, 218, 218, 0.12);
+}
+
 .bannar_inner {
   display: block;
   padding: 170px 0px 70px 0px;
@@ -12205,6 +12222,143 @@ table th {
 @media only screen and (min-width: 991px) {
   .blog-catagory .cards .text-camber .title .h5 {
     font-size: 20px;
+  }
+}
+
+/* ------------------- start hospital details page -------------*/
+.appointment {
+  padding-bottom: 0px;
+}
+
+@media only screen and (min-width: 768px) {
+  .appointment {
+    padding-bottom: 100px;
+  }
+}
+
+.appointment .title {
+  color: #50658e;
+}
+
+.appointment .title span {
+  color: red;
+}
+
+.appointment .inner-box {
+  z-index: 999;
+  position: relative;
+  top: -70px;
+  padding: 15px;
+  -webkit-box-shadow: 0px 4px 6px 0px rgba(50, 50, 93, 0.11), 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+          box-shadow: 0px 4px 6px 0px rgba(50, 50, 93, 0.11), 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+}
+
+@media only screen and (min-width: 576px) {
+  .appointment .inner-box {
+    padding: 100px;
+    top: -80px;
+  }
+}
+
+@media only screen and (min-width: 991px) {
+  .appointment .inner-box {
+    top: -100px;
+    padding: 150px;
+  }
+}
+
+.appointment .input-wrapper input,
+.appointment .input-wrapper select {
+  height: 50px !important;
+  padding: 15px;
+  border-radius: 5px;
+  color: #50658e;
+}
+
+.appointment .input-wrapper select {
+  padding: 10px !important;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url(../image/selecticon.png);
+  background-repeat: no-repeat;
+  background-position-x: 95%;
+  background-position-y: 15px;
+  background-size: 15px 15px;
+  cursor: pointer;
+}
+
+.appointment .input-wrapper option {
+  cursor: pointer;
+  padding: 10px !important;
+}
+
+.appointment .input-wrapper .btn-primariey {
+  width: 100%;
+  color: #fff;
+}
+
+.update_service {
+  padding-top: 0px;
+  padding-bottom: 50px;
+}
+
+@media only screen and (min-width: 991px) {
+  .update_service {
+    padding-bottom: 100px;
+  }
+}
+
+.update_service .text-card {
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 25px;
+  -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12), 0px 1px 5px 0px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12), 0px 1px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.update_service .text-card span i {
+  font-size: 25px;
+  color: #ce5358;
+}
+
+.update_service .text-card h5 {
+  padding: 10px;
+  margin: 0px;
+  color: #0DC6F6;
+  font-weight: 500;
+}
+
+.update_service .text-card:hover span i {
+  color: #27B261;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.update_service .text-card:hover h5 {
+  color: #ce5358;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.map {
+  width: 100%;
+}
+
+.map iframe {
+  display: block;
+  width: 100%;
+  height: 250px;
+}
+
+@media only screen and (min-width: 576px) {
+  .map iframe {
+    height: 300px;
+  }
+}
+
+@media only screen and (min-width: 991px) {
+  .map iframe {
+    height: 478px;
   }
 }
 

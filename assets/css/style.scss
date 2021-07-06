@@ -468,10 +468,15 @@ $btn-hover-color:#ce5358;
     .icon {
         padding-right: 15px;
         i {
+            -webkit-transition: all 0.3s ease-out;
+            transition: all 0.3s ease-out;
             font-size: 20px;
             padding-top: 5px;
-            color: $primary-text-color!important;
+            color: $greenlight!important;
         }
+    }
+    .icon:hover i {
+        color: $primary-text-color!important;
     }
     @include minwidth(768px) {
         .icon {
@@ -727,6 +732,17 @@ $btn-hover-color:#ce5358;
 /* ------------------------ end header section -----------------*/
 
 // ----------------------- start bannar section ---------------
+.bannar-section {
+    background-repeat: no-repeat!important;
+    background-position: center center;
+    background-size: cover!important;
+    background-attachment: fixed;
+}
+
+.rgb_bannar {
+    background: rgba(227, 218, 218, 0.12%);
+}
+
 .bannar_inner {
     display: block;
     padding: 170px 0px 70px 0px;
@@ -1279,6 +1295,123 @@ $white_light:#f0f8ff;
                 }
             }
         }
+    }
+}
+
+
+/* ------------------- start hospital details page -------------*/
+
+.appointment {
+    padding-bottom: 0px;
+    @include minwidth(768px) {
+        padding-bottom: 100px;
+    }
+    .title {
+        color: $primary-text-color;
+        span {
+            color: red;
+        }
+    }
+    .inner-box {
+        z-index: 999;
+        position: relative;
+        top: -70px;
+        padding: 15px;
+        box-shadow: 0px 4px 6px 0px rgba(50, 50, 93, 0.11), 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+        @include minwidth(576px) {
+            padding: 100px;
+            top: -80px;
+        }
+        @include minwidth(991px) {
+            top: -100px;
+            padding: 150px;
+        }
+    }
+    .input-wrapper {
+        input,
+        select {
+            height: 50px!important;
+            padding: 15px;
+            border-radius: 5px;
+            color: $primary-text-color;
+        }
+        select {
+            padding: 10px!important;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            background-image: url(../image/selecticon.png);
+            background-repeat: no-repeat;
+            background-position-x: 95%;
+            background-position-y: 15px;
+            background-size: 15px 15px;
+            cursor: pointer;
+        }
+        option {
+            cursor: pointer;
+            padding: 10px!important;
+        }
+        .btn-primariey {
+            width: 100%;
+            color: #fff;
+        }
+    }
+}
+
+// update section
+.update_service {
+    padding-top: 0px;
+    padding-bottom: 50px;
+    @include minwidth(991px) {
+        padding-bottom: 100px;
+    }
+    .text-card {
+        cursor: pointer;
+        border-radius: 10px;
+        padding: 25px;
+        box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12), 0px 1px 5px 0px rgba(0, 0, 0, 0.2);
+        span {
+            i {
+                font-size: 25px;
+                color: $btn-hover-color;
+            }
+        }
+        h5 {
+            padding: 10px;
+            margin: 0px;
+            color: $btn_backcolor;
+            font-weight: 500;
+        }
+    }
+    .text-card:hover span i {
+        color: $green;
+        transition: all 0.4s;
+    }
+    .text-card:hover h5 {
+        color: $btn-hover-color;
+        transition: all 0.4s;
+    }
+}
+
+// map using
+.map {
+    width: 100%;
+}
+
+.map iframe {
+    display: block;
+    width: 100%;
+    height: 250px;
+}
+
+@media only screen and (min-width: 576px) {
+    .map iframe {
+        height: 300px;
+    }
+}
+
+@media only screen and (min-width: 991px) {
+    .map iframe {
+        height: 478px;
     }
 }
 
