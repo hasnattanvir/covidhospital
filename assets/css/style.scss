@@ -171,7 +171,7 @@ table {
 
 li {
     &:not(:last-child) {
-        margin-bottom: 6px;
+        // margin-bottom: 6px;
     }
 }
 
@@ -699,7 +699,7 @@ $btn-hover-color:#ce5358;
             content: "";
             border: none;
             background-color: #000;
-            vertical-align: 0;
+            vertical-align: 0px;
             transition: all 200ms linear;
         }
     }
@@ -1191,6 +1191,121 @@ $white_light:#f0f8ff;
 
 
 /* ------------------- Bangladesh Private Hospital ------------*/
+
+
+/* ------------------- Blog Page  ------------*/
+
+.blog-catagory {
+    padding: 100px 0px;
+    .title {
+        .h3 {
+            color: $primary-text-color;
+            position: relative;
+            padding-left: 25px;
+        }
+        .h3::before {
+            content: "";
+            display: block;
+            width: 17px;
+            height: 17px;
+            background: #CD5C5C;
+            left: 0px;
+            top: 7px;
+            position: absolute;
+        }
+    }
+    .list-group {
+        .list-group-item {
+            border-top: 0px;
+            border-right: 0px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+            border-left: 0px;
+            padding: 10px 10px 10px 5px;
+        }
+        .list-group-item.active {
+            z-index: 2;
+            color: $white-color;
+            background-color: $red-color;
+            border-color: $primary-text-color;
+        }
+    }
+    .cards {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+        .image_camber {
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+        .text-camber {
+            .month {
+                background: $primary-text-color;
+                padding: 5px 10px;
+                span {
+                    color: $white-color;
+                    font-family: $primary-font;
+                }
+            }
+            .day {
+                padding: 5px 10px;
+                background: $bg-thard-color;
+                span {
+                    color: $primary-text-color;
+                    font-family: $primary-font;
+                }
+            }
+            .title {
+                h5 {
+                    font-size: 16px;
+                    color: $primary-text-color;
+                    font-family: $primary-font;
+                }
+            }
+            .para {
+                color: $primary-text-color;
+                a {
+                    color: $btn-color;
+                    text-decoration: underline;
+                }
+            }
+            .comment {
+                color: $gray-text-color;
+            }
+            @include minwidth(991px) {
+                .title {
+                    .h5 {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+/* ------------------- start footer sections -----------------*/
+
+.blog_post_dtl {
+    padding-top: 70px;
+    padding-bottom: 100px;
+    .imgs {
+        img {
+            width: 100%;
+            border-radius: 6px;
+        }
+    }
+    .post_text {
+        width: 100%;
+        margin: auto;
+        color: $primary-text-color;
+        img {
+            width: 100%;
+        }
+        @include minwidth(768px) {
+            width: 75%;
+        }
+    }
+}
 
 
 /* ------------------- start footer sections -----------------*/
