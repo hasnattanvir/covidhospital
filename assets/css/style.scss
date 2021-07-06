@@ -1416,6 +1416,60 @@ $white_light:#f0f8ff;
 }
 
 
+/* ------------------- start About US Page  -----------------*/
+
+.about_we_are {
+    padding: 100px 0px;
+    .title_box {
+        span {
+            color: $primary-text-color;
+        }
+    }
+    .para {
+        color: $primary-text-color;
+    }
+}
+
+.teammember {
+    padding: 100px 0px;
+    .picture {
+        img {
+            width: 100%;
+        }
+    }
+    .text {
+        padding: 25px 20px 25px 20px;
+        .h5 {
+            color: $primary-text-color!important;
+            margin-bottom: 0px;
+            a {
+                color: $primary-text-color!important;
+            }
+        }
+        a {
+            color: $btn_backcolor;
+        }
+        ul {
+            li {
+                padding-right: 20px;
+                a {
+                    color: #abaaaa;
+                    font-size: 20px;
+                }
+            }
+            li a:hover {
+                color: $btn_backcolor!important;
+            }
+        }
+    }
+}
+
+// features section
+.features_section {
+    padding: 100px;
+}
+
+
 /* ------------------- start footer sections -----------------*/
 
 .blog_post_dtl {

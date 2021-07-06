@@ -12362,6 +12362,61 @@ table th {
   }
 }
 
+/* ------------------- start About US Page  -----------------*/
+.about_we_are {
+  padding: 100px 0px;
+}
+
+.about_we_are .title_box span {
+  color: #50658e;
+}
+
+.about_we_are .para {
+  color: #50658e;
+}
+
+.teammember {
+  padding: 100px 0px;
+}
+
+.teammember .picture img {
+  width: 100%;
+}
+
+.teammember .text {
+  padding: 25px 20px 25px 20px;
+}
+
+.teammember .text .h5 {
+  color: #50658e !important;
+  margin-bottom: 0px;
+}
+
+.teammember .text .h5 a {
+  color: #50658e !important;
+}
+
+.teammember .text a {
+  color: #0DC6F6;
+}
+
+.teammember .text ul li {
+  padding-right: 20px;
+}
+
+.teammember .text ul li a {
+  color: #abaaaa;
+  font-size: 20px;
+}
+
+.teammember .text ul li a:hover {
+  color: #0DC6F6 !important;
+}
+
+.features_section {
+  padding: 100px;
+}
+
 /* ------------------- start footer sections -----------------*/
 .blog_post_dtl {
   padding-top: 70px;
