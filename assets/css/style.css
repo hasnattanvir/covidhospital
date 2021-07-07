@@ -12414,7 +12414,23 @@ table th {
 }
 
 .features_section {
-  padding: 100px;
+  padding: 100px 0px;
+}
+
+.features_section .icon {
+  padding-right: 40px;
+}
+
+.features_section .icon i {
+  font-size: 30px;
+}
+
+.features_section .title_para h5 {
+  color: #50658e;
+}
+
+.features_section .title_para p {
+  color: #50658e;
 }
 
 /* ------------------- start footer sections -----------------*/

@@ -1466,7 +1466,21 @@ $white_light:#f0f8ff;
 
 // features section
 .features_section {
-    padding: 100px;
+    padding: 100px 0px;
+    .icon {
+        padding-right: 40px;
+        i {
+            font-size: 30px;
+        }
+    }
+    .title_para {
+        h5 {
+            color: $primary-text-color;
+        }
+        p {
+            color: $primary-text-color;
+        }
+    }
 }
 
 
