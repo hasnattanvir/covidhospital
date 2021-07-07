@@ -55,9 +55,8 @@ $(document).ready(function() {
 });
 
 
+
 // team member slider
-
-
 
 $(document).ready(function() {
     var swiper = new Swiper('.teamslider', {

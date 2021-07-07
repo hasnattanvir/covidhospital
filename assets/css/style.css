@@ -11475,20 +11475,23 @@ table th {
 
 .dropdown-item {
   padding: 3px 15px;
-  color: #212121;
+  color: #50658e;
   border-radius: 2px;
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
+  font-size: 16px;
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase !important;
 }
 
 .dropdown-item:hover {
   color: #fff;
-  background-color: rgba(129, 103, 169, 0.6);
+  background-color: #AEDBC1;
 }
 
 .dropdown-item:focus {
   color: #fff;
-  background-color: rgba(129, 103, 169, 0.6);
+  background-color: #AEDBC1;
 }
 
 .logo {
