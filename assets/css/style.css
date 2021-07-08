@@ -12437,6 +12437,49 @@ table th {
 }
 
 /* ------------------- start footer sections -----------------*/
+.blood_list {
+  background-repeat: no-repeat;
+  background: center center;
+  background-size: cover;
+  -webkit-transition: 0.3ms all;
+  transition: 0.3ms all;
+}
+
+.blood_list .main_div {
+  padding: 50px 0px;
+}
+
+@media only screen and (min-width: 991px) {
+  .blood_list .main_div {
+    padding: 100px 0px;
+  }
+}
+
+.blood_list .blood_card {
+  background: #f0f8ff;
+  padding: 20px;
+}
+
+.blood_list .blood_card i {
+  font-size: 50px;
+  color: #f86168;
+}
+
+.blood_list .blood_card .h3 {
+  font-family: "Ubuntu", sans-serif;
+  color: #50658e;
+  font-size: 38px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.blood_list .blood_card:hover i {
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  color: #ce5358;
+}
+
+/* ------------------- start footer sections -----------------*/
 .blog_post_dtl {
   padding-top: 70px;
   padding-bottom: 100px;
