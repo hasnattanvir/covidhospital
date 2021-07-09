@@ -1478,7 +1478,12 @@ $white_light:#f0f8ff;
 
 /* ------------------- start blood claction -----------------*/
 
-.blood_section {}
+.blood_section {
+    padding-bottom: 50px;
+    @include minwidth(991px) {
+        padding-bottom: 100px;
+    }
+}
 
 .blood_list {
     @include background_img;
