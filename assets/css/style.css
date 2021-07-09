@@ -11226,7 +11226,7 @@ table th {
 /* ------------------------ end site typography ----------------------*/
 /* ------------------------ start main css ----------------------*/
 /* ------------------------ start header section -----------------*/
-.start-header {
+.wrapper .start-header {
   opacity: 1;
   -webkit-transform: translateY(0);
           transform: translateY(0);
@@ -11237,7 +11237,7 @@ table th {
   transition: all 0.3s ease-out;
 }
 
-.start-header.scroll-on {
+.wrapper .start-header.scroll-on {
   -webkit-box-shadow: 0 5px 10px 0 rgba(138, 155, 165, 0.15);
           box-shadow: 0 5px 10px 0 rgba(138, 155, 165, 0.15);
   padding: 10px 0;
@@ -11245,13 +11245,13 @@ table th {
   transition: all 0.3s ease-out;
 }
 
-.start-header.scroll-on .navbar-brand img {
+.wrapper .start-header.scroll-on .navbar-brand img {
   height: 24px;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
 
-.navigation-wrap {
+.wrapper .navigation-wrap {
   position: fixed;
   width: 100%;
   top: 0;
@@ -11261,11 +11261,11 @@ table th {
   transition: all 0.3s ease-out;
 }
 
-.navbar {
+.wrapper .navbar {
   padding: 0;
 }
 
-.navbar .btn-primariey {
+.wrapper .navbar .btn-primariey {
   border-radius: 5px;
   margin-left: 20px;
   margin-top: -7px;
@@ -11274,21 +11274,21 @@ table th {
 }
 
 @media only screen and (min-width: 768px) {
-  .navbar .btn-primariey {
+  .wrapper .navbar .btn-primariey {
     display: block !important;
   }
 }
 
-.navbar-nav {
+.wrapper .navbar-nav {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
 
-.wrapper-toggler .icon {
+.wrapper .wrapper-toggler .icon {
   padding-right: 15px;
 }
 
-.wrapper-toggler .icon i {
+.wrapper .wrapper-toggler .icon i {
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
   font-size: 20px;
@@ -11296,17 +11296,17 @@ table th {
   color: #AEDBC1 !important;
 }
 
-.wrapper-toggler .icon:hover i {
+.wrapper .wrapper-toggler .icon:hover i {
   color: #50658e !important;
 }
 
 @media only screen and (min-width: 768px) {
-  .wrapper-toggler .icon {
+  .wrapper .wrapper-toggler .icon {
     display: none;
   }
 }
 
-.navbar-brand img {
+.wrapper .navbar-brand img {
   height: 28px;
   width: auto;
   display: block;
@@ -11314,21 +11314,21 @@ table th {
   transition: all 0.3s ease-out;
 }
 
-.navbar-toggler {
+.wrapper .navbar-toggler {
   float: right;
   border: none;
   padding-right: 0;
 }
 
-.navbar-toggler:active {
+.wrapper .navbar-toggler:active {
   outline: none;
 }
 
-.navbar-toggler:focus {
+.wrapper .navbar-toggler:focus {
   outline: none;
 }
 
-.navbar-light .navbar-toggler-icon {
+.wrapper .navbar-light .navbar-toggler-icon {
   width: 24px;
   height: 17px;
   background-image: none;
@@ -11338,7 +11338,7 @@ table th {
   transition: all 300ms linear;
 }
 
-.navbar-light .navbar-toggler-icon:after {
+.wrapper .navbar-light .navbar-toggler-icon:after {
   width: 24px;
   position: absolute;
   height: 1px;
@@ -11352,7 +11352,7 @@ table th {
   top: 8px;
 }
 
-.navbar-light .navbar-toggler-icon:before {
+.wrapper .navbar-light .navbar-toggler-icon:before {
   width: 24px;
   position: absolute;
   height: 1px;
@@ -11365,21 +11365,21 @@ table th {
   transition: all 300ms linear;
 }
 
-.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+.wrapper .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-color: transparent;
 }
 
-.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
+.wrapper .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
   -webkit-transform: rotate(45deg);
           transform: rotate(45deg);
 }
 
-.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
+.wrapper .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   -webkit-transform: translateY(8px) rotate(-45deg);
           transform: translateY(8px) rotate(-45deg);
 }
 
-.nav-link {
+.wrapper .nav-link {
   font-family: "Ubuntu", sans-serif;
   color: #50658e !important;
   -webkit-transition: all 200ms linear;
@@ -11390,23 +11390,23 @@ table th {
   text-align: center;
 }
 
-.nav-item {
+.wrapper .nav-item {
   margin-left: 2.5rem;
   position: relative;
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
 }
 
-.nav-item:hover .nav-link {
+.wrapper .nav-item:hover .nav-link {
   color: #8167a9 !important;
 }
 
-.nav-item:hover:after {
+.wrapper .nav-item:hover:after {
   bottom: 0;
   opacity: 1;
 }
 
-.nav-item:after {
+.wrapper .nav-item:after {
   position: absolute;
   bottom: -5px;
   left: 0;
@@ -11419,7 +11419,7 @@ table th {
   transition: all 200ms linear;
 }
 
-.nav-item .dropdown-menu {
+.wrapper .nav-item .dropdown-menu {
   -webkit-transform: translate3d(0, 10px, 0);
           transform: translate3d(0, 10px, 0);
   visibility: hidden;
@@ -11432,21 +11432,21 @@ table th {
   transition: all 200ms linear;
 }
 
-.nav-item.active .nav-link {
+.wrapper .nav-item.active .nav-link {
   color: #777 !important;
 }
 
-.nav-item.active:hover:after {
+.wrapper .nav-item.active:hover:after {
   opacity: 0;
 }
 
-.bg-light {
+.wrapper .bg-light {
   background-color: #fff !important;
   -webkit-transition: all 200ms linear;
   transition: all 200ms linear;
 }
 
-.nav-item.show .dropdown-menu {
+.wrapper .nav-item.show .dropdown-menu {
   opacity: 1;
   visibility: visible;
   max-height: 999px;
@@ -11454,7 +11454,7 @@ table th {
           transform: translate3d(0, 0px, 0);
 }
 
-.dropdown-menu {
+.wrapper .dropdown-menu {
   padding: 10px !important;
   margin: 0;
   font-size: 13px;
@@ -11469,11 +11469,11 @@ table th {
   transition: all 200ms linear;
 }
 
-.dropdown-toggle::after {
+.wrapper .dropdown-toggle::after {
   display: none;
 }
 
-.dropdown-item {
+.wrapper .dropdown-item {
   padding: 3px 15px;
   color: #50658e;
   border-radius: 2px;
@@ -11484,17 +11484,17 @@ table th {
   text-transform: uppercase !important;
 }
 
-.dropdown-item:hover {
+.wrapper .dropdown-item:hover {
   color: #fff;
   background-color: #AEDBC1;
 }
 
-.dropdown-item:focus {
+.wrapper .dropdown-item:focus {
   color: #fff;
   background-color: #AEDBC1;
 }
 
-.logo {
+.wrapper .logo {
   position: absolute;
   bottom: 30px;
   right: 30px;
@@ -11504,7 +11504,7 @@ table th {
   transition: all 250ms linear;
 }
 
-.logo img {
+.wrapper .logo img {
   height: 26px;
   width: auto;
   display: block;
@@ -11515,10 +11515,10 @@ table th {
 }
 
 @media (max-width: 767px) {
-  .nav-item:after {
+  .wrapper .nav-item:after {
     display: none;
   }
-  .nav-item::before {
+  .wrapper .nav-item::before {
     position: absolute;
     display: block;
     top: 15px;
@@ -11530,7 +11530,7 @@ table th {
     background-color: #000;
     vertical-align: 0px;
   }
-  .dropdown-toggle::after {
+  .wrapper .dropdown-toggle::after {
     position: absolute;
     display: block;
     top: 10px;
@@ -11544,16 +11544,16 @@ table th {
     -webkit-transition: all 200ms linear;
     transition: all 200ms linear;
   }
-  .dropdown-toggle[aria-expanded="true"]::after {
+  .wrapper .dropdown-toggle[aria-expanded="true"]::after {
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
     opacity: 0;
   }
-  .dropdown-toggle[aria-expanded="true"] + .dropdown-menu {
+  .wrapper .dropdown-toggle[aria-expanded="true"] + .dropdown-menu {
     margin-top: 10px !important;
     margin-bottom: 20px !important;
   }
-  .dropdown-menu {
+  .wrapper .dropdown-menu {
     padding: 0 !important;
     background-color: transparent;
     -webkit-box-shadow: none;
@@ -12436,7 +12436,7 @@ table th {
   color: #50658e;
 }
 
-/* ------------------- start footer sections -----------------*/
+/* ------------------- start blood claction -----------------*/
 .blood_list {
   background-repeat: no-repeat;
   background: center center;
