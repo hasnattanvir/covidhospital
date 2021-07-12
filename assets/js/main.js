@@ -4,7 +4,7 @@ $(document).ready(function() {
         spaceBetween: 0,
         autoplay: true,
         loop: true,
-        speed: 800,
+        speed: 3000,
         effect: 'slide',
 
     });
@@ -34,7 +34,7 @@ $(document).ready(function() {
         spaceBetween: 30,
         autoplay: true,
         loop: true,
-        speed: 700,
+        speed: 2500,
         effect: 'slide',
         breakpoints: {
             640: {
@@ -92,5 +92,12 @@ $(document).ready(function() {
             nocookie: true
         }
     });
+
+});
+
+
+
+$(document).ready(function() {
+    new WOW().init();
 
 });
