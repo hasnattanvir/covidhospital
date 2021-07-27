@@ -11808,7 +11808,7 @@ table th {
 
 @media only screen and (min-width: 576px) {
   .counter-guttyr {
-    padding-bottom: 0px;
+    padding-bottom: 20px;
   }
 }
 
@@ -11831,8 +11831,9 @@ table th {
 }
 
 .counter-info .h4 {
-  color: #fff;
+  color: #f86168;
   font-family: "Ubuntu", sans-serif;
+  margin-bottom: 15px;
 }
 
 .counter-info span {
@@ -12145,6 +12146,15 @@ table th {
 }
 
 /* ------------------- Bangladesh Private Hospital ------------*/
+.private_custom .address_text {
+  text-align: left;
+  margin-top: 3px;
+  border-top: 1px solid #fff;
+  font-size: 14px;
+  display: block;
+  color: #27B261;
+}
+
 /* ------------------- Blog Page  ------------*/
 .blog-catagory {
   padding: 100px 0px;

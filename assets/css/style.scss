@@ -918,7 +918,7 @@ $btn-hover-color:#ce5358;
 .counter-guttyr {
     padding: 20px 0px;
     @include minwidth(576px) {
-        padding-bottom: 0px;
+        padding-bottom: 20px;
     }
 }
 
@@ -935,8 +935,9 @@ $btn-hover-color:#ce5358;
     background-size: cover;
     background-attachment: fixed;
     .h4 {
-        color: $white-color;
+        color: $red-color;
         font-family: $primary-font;
+        margin-bottom: 15px;
     }
     span {
         color: $white-color;
@@ -1208,6 +1209,17 @@ $white_light:#f0f8ff;
 
 
 /* ------------------- Bangladesh Private Hospital ------------*/
+
+.private_custom {
+    .address_text {
+        text-align: left;
+        margin-top: 3px;
+        border-top: 1px solid #fff;
+        font-size: 14px;
+        display: block;
+        color: $green;
+    }
+}
 
 
 /* ------------------- Blog Page  ------------*/

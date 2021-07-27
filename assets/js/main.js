@@ -29,13 +29,16 @@ $(document).ready(function() {
 // dector quoter slider
 
 $(document).ready(function() {
-    var swiper = new Swiper('.quoterslide', {
+    var swiper = new Swiper(".quoterslide", {
         slidesPerView: 1,
         spaceBetween: 30,
+        slidesPerGroup: 1,
         autoplay: true,
         loop: true,
+        loopFillGroupWithBlank: true,
         speed: 2500,
         effect: 'slide',
+        direction: 'horizontal',
         breakpoints: {
             640: {
                 slidesPerView: 1,
@@ -62,10 +65,13 @@ $(document).ready(function() {
     var swiper = new Swiper('.teamslider', {
         slidesPerView: 1,
         spaceBetween: 30,
+        slidesPerGroup: 1,
         autoplay: true,
         loop: true,
+        loopFillGroupWithBlank: true,
         speed: 700,
         effect: 'slide',
+        initialSlide: 7,
         breakpoints: {
             640: {
                 slidesPerView: 2,
