@@ -11664,8 +11664,8 @@ table th {
 
 @media only screen and (min-width: 576px) {
   .banner-slider .inner-box {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 100px;
+    padding-bottom: 50px;
   }
 }
 
@@ -11994,6 +11994,85 @@ table th {
 
 .quoter .swiper-slide .inner-text .infor .h5 a:hover {
   color: #f86168;
+}
+
+/* ------------------- start icu bad section -------------*/
+.icu_bad {
+  padding: 70px 0px;
+}
+
+.icu_bad .searchbox .input-group {
+  width: 780px;
+  max-width: 100%;
+}
+
+.icu_bad .searchbox .input-group-append .btn {
+  color: #fff;
+  background-color: #5a6268;
+  border-color: #545b62;
+  height: 40px !important;
+}
+
+.icu_bad .searchbox .form-control {
+  height: 40px !important;
+}
+
+@media only screen and (min-width: 991px) {
+  .icu_bad {
+    padding: 100px 0px 0px 0px;
+  }
+}
+
+.icu_bad .hospit_photo img {
+  width: 100%;
+}
+
+.icu_bad .icu_card {
+  padding: 15px 15px;
+  background: #f0f8ff;
+  border-radius: 15px;
+}
+
+.icu_bad .icu_card .h4 {
+  margin-bottom: 10px;
+}
+
+.icu_bad .icu_card .h4 sub {
+  font-size: 14px;
+  color: #ce878a;
+}
+
+.icu_bad .icu_card p a {
+  color: #27B261;
+  font-size: 18px;
+}
+
+.icu_bad_get {
+  padding-top: 50px;
+}
+
+@media only screen and (min-width: 991px) {
+  .icu_bad_get {
+    padding-top: 70px;
+  }
+}
+
+.icu_bad_get .inner_box_icu img {
+  width: 100%;
+}
+
+.icu_bad_get .inner_box_icu .para {
+  color: #50658e;
+}
+
+.icu_bad_get .banglades_map {
+  background-repeat: no-repeat;
+  background: center center;
+  background-size: cover;
+}
+
+.icu_bad_get .text_scroll {
+  padding: 40px 0px;
 }
 
 /*-------------------- Start CONTACT Page ----------------*/
@@ -12384,6 +12463,10 @@ table th {
 }
 
 /* ------------------- start About US Page  -----------------*/
+.aboutussection {
+  background-size: contain !important;
+}
+
 .about_we_are {
   padding: 100px 0px;
 }
